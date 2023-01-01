@@ -41,8 +41,8 @@ class InputValidator {
     * Checks if the input value length is in the min/max range. 
     * Displays an error if it doesn't.
     * @param {*} inputID ID of the input 
-    * @param {*} min minimum input length
-    * @param {*} max maximum input length
+    * @param {*} min minimum input value length
+    * @param {*} max maximum input value length
     * @returns  true if the input length is valid and false otherwise
     */
     isValidLength(inputID, min, max) 
