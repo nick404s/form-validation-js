@@ -41,8 +41,8 @@ class InputValidator {
     * Checks if the input value length is in the min/max range. 
     * Displays an error if it doesn't.
     * @param {*} inputID ID of the input 
-    * @param {*} min min input length
-    * @param {*} max max input length
+    * @param {*} min minimum input length
+    * @param {*} max maximum input length
     * @returns  true if the input length is valid and false otherwise
     */
     isValidLength(inputID, min, max) 
@@ -131,8 +131,8 @@ class InputValidator {
 
 
     /**
-     * Gets an input field name of an element.
-     * @param {*} anInputID ID of the element
+     * Gets an input field name of an input.
+     * @param {*} anInputID ID of the input
      * @returns field name string
      */
     getFieldName(anInputID)
@@ -145,7 +145,7 @@ class InputValidator {
      * Displays the input error. 
      * Adds to the parent element of the input
      * the error CSS class and shake effect.
-     * Sets to the next element the error message.
+     * Sets on the next element the error message.
      * @param {*} anInputID ID of the input 
      * @param {*} errorMessage text describing the error
      */
