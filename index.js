@@ -53,6 +53,7 @@ $(document).ready(() => {
                 <h2>Hi ${validator.getValue(userNameInputID)}</h2>
                 <h4>Thank You for Signing Up!</h4>
                 <h4>We Sent Confirmation Message to Your Email</h4>
+                <a href="index.html"><input id="return-btn" type="button" value="Return"></a>
                 `
             )
             .css({color: '#2ecc71'});

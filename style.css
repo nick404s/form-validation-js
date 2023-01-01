@@ -82,7 +82,7 @@ h2, h4 {
   visibility: visible;
 }
 
-#submit-btn {
+#submit-btn, #return-btn {
   cursor: pointer;
   background-color: #3498db;
   border: 2px solid #3498db;
@@ -93,4 +93,14 @@ h2, h4 {
   padding: 10px;
   margin-top: 20px;
   width: 100%;
+}
+
+#success-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
 }
