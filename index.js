@@ -50,9 +50,9 @@ $(document).ready(() => {
             $('#success-message')
             .html(
                 `
-                <h2>Hi ${validator.getValue(userNameInputID)}!</h2>
+                <h2>Hi ${validator.getValue(userNameInputID)}</h2>
                 <h4>Thank You for Signing Up!</h4>
-                <h4>We Sent Confirmation Message to ${validator.getValue(emailInputID)}</h4>
+                <h4>We Sent Confirmation Message to Your Email</h4>
                 `
             )
             .css({color: '#2ecc71'});

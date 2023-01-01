@@ -32,7 +32,6 @@ class InputValidator {
                              );
             return false;
         }
-    
         return true;
     }
 
@@ -67,7 +66,6 @@ class InputValidator {
                              );
             return false;
         } 
-    
         return true;
     }
 
@@ -114,7 +112,6 @@ class InputValidator {
                              );
             return false;
         }
-    
         return true;
     }
 
