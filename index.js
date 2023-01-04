@@ -177,4 +177,4 @@ $(document).ready(() => {
         }
         return false;
     };
-}); // End of program
+}); // End of ready
