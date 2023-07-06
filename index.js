@@ -46,11 +46,14 @@ $(document).ready(() => {
             // hide the form
             $('#form').hide();
 
+            // get sanitized user name
+            const userName = validator.getValue(userNameInputID).replace(/<[^>]+>/g, '');
+            
             // create the success message template
             $('#success-message')
             .html(
                 `
-                <h2>Hi ${validator.getValue(userNameInputID)}</h2>
+                <h2>Hi ${userName}</h2>
                 <h4>Thank You for Signing Up!</h4>
                 <a href="index.html"><input id="return-btn" type="button" value="Return"></a>
                 `
