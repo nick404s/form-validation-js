@@ -117,13 +117,13 @@ class InputValidator {
 
 
     /**
-     * Gets an input value of an input.
+     * Gets a sanitized (no HTML tags) input value of an input.
      * @param {*} anInputID ID of the input
      * @returns value string
      */
     getValue(anInputID)
     {
-        return anInputID.val().trim();
+        return anInputID.val().trim().replace(/<[^>]+>/g, '');
     }
 
 

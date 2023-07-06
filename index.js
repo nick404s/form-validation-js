@@ -47,7 +47,7 @@ $(document).ready(() => {
             $('#form').hide();
 
             // get sanitized user name
-            const userName = validator.getValue(userNameInputID).replace(/<[^>]+>/g, '');
+            const userName = validator.getValue(userNameInputID);
             
             // create the success message template
             $('#success-message')
